@@ -1,0 +1,23 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	background: #000;
+	overflow: hidden;
+}
+
+#board {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.score {
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	font-size: 35vw;
+	line-height: 1;
+}
+
+#red  { color: #ff2a2a; }
+#blue { color: #2a6bff; }
